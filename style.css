@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.wrapper h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+.wrapper h1 span {
+  color: rgb(255, 123, 51);
+}
+
+.choices {
+  background-color: rgb(255, 123, 51);
+  width: 400px;
+  height: 180px;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+.choices h2 {
+  margin: 10px;
+  font-weight: 800;
+  color: rgb(17, 17, 17);
+}
+.choices h2 span {
+  color: rgb(255, 255, 255);
+}
+
+.resultShow {
+  margin-top: 20px;
+  text-align: center;
+}
+.resultShow h1 {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.buttons {
+  margin-top: 15px;
+}
+.buttons button {
+  outline: none;
+  border: none;
+  background-color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttons button:hover {
+  color: #fff;
+  background-color: rgb(255, 123, 51);
+}
